@@ -1,0 +1,25 @@
+.rsf-label {
+  display: inline-block;
+  margin: 4px 0 8px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font: 600 12px/1.6 -apple-system, system-ui, sans-serif;
+  cursor: help;
+}
+.rsf-template { background: #fde8e8; color: #9b1c1c; }
+.rsf-personal { background: #def7ec; color: #03543f; }
+.rsf-banner {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 99999;
+  max-width: 320px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #1f2937;
+  color: #fff;
+  font: 13px/1.5 -apple-system, system-ui, sans-serif;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .25);
+  cursor: pointer;
+}
+.rsf-banner a { color: #93c5fd; }

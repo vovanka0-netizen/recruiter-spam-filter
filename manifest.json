@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Recruiter Spam Filter",
+  "version": "0.2",
+  "description": "Marks templated and AI-generated recruiter messages on LinkedIn.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*"],
+      "js": ["rules.js", "content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": { "id": "recruiter-spam-filter@vovanka0" }
+  }
+}

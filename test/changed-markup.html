@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RSF test page</title>
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { font: 14px/1.5 -apple-system, system-ui, sans-serif; background: #f4f2ee; margin: 0; padding: 16px; }
+  .note { background: #fff3c4; padding: 8px 12px; border-radius: 6px; max-width: 640px; margin: 0 auto 16px; }
+  .thread { background: #fff; max-width: 640px; margin: 0 auto; border-radius: 8px; padding: 8px 16px; }
+  .msg-s-event-listitem { border-bottom: 1px solid #eee; padding: 12px 0; }
+  .sender { font-weight: 600; }
+</style>
+</head>
+<body>
+<p class="note">TEST PAGE (changed class names). All messages below are made up to test the rules. The markup copies LinkedIn class names.</p>
+<div class="thread">
+  <div class="msg-s-event-listitem">
+    <div class="sender">Test sender A</div>
+    <p class="msg-new-event-listitem__body-v2">Hi ✅ Alex, I came across your profile and was impressed by your background. We have an exciting opportunity at a fast-growing stealth startup. Are you open to a quick call? Grab a slot here: calendly.com/test-recruiter/15min</p>
+  </div>
+  <div class="msg-s-event-listitem">
+    <div class="sender">Test sender B</div>
+    <p class="msg-new-event-listitem__body-v2">Hi {first_name}, hope this message finds you well! Your experience caught my eye and I think you'd be a perfect fit.</p>
+  </div>
+  <div class="msg-s-event-listitem">
+    <div class="sender">Test sender C</div>
+    <p class="msg-new-event-listitem__body-v2">Hi Alex, I read your post about migrating the billing service off cron jobs. We are stuck on the same problem with Postgres advisory locks. Would you be up for answering two questions about how you handled retries?</p>
+  </div>
+</div>
+<script src="../rules.js"></script>
+<script src="../content.js"></script>
+</body>
+</html>
